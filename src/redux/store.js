@@ -10,5 +10,4 @@ const reducer = (state = initialState, action) => {
     return state;
 }
 
- const store = createStore(reducer);
- export default store;
+export const store = createStore(reducer);
