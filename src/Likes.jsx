@@ -1,8 +1,7 @@
 import { connect } from 'react-redux';
 
 const Likes = (props) => {
-
-    console.log(props)
+    console.log("render >", props);
   return (
     <div className="button-controls">
       <button>❤ {props.like}</button>
